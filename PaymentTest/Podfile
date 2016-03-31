@@ -1,0 +1,15 @@
+platform :ios, '8.0'
+use_frameworks!
+
+target 'PaymentTest' do
+	pod 'Alamofire', '3.1.2'
+end
+
+target 'PaymentTestTests' do
+
+end
+
+target 'PaymentTestUITests' do
+
+end
+
