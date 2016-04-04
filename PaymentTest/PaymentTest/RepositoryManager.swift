@@ -18,7 +18,6 @@ class RepositoryManager: NSObject {
         
         Alamofire.request(connectionMethod, url, parameters: parameters as? [String : AnyObject], encoding: .URL, headers: nil).responseJSON { (response) in
             
-            
             print(response)
             
             if response.result.isSuccess {

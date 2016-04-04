@@ -56,19 +56,45 @@
         <!--Medios de pago-->
         <scene sceneID="41A-dy-aSh">
             <objects>
-                <tableViewController title="Medios de pago" id="aRB-Mv-zMj" customClass="PaymentMethodsViewController" customModule="PaymentTest" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController title="Medios de pago" clearsSelectionOnViewWillAppear="NO" id="aRB-Mv-zMj" customClass="PaymentMethodsViewController" customModule="PaymentTest" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="pUs-oJ-q3P">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="paymentMethodCell" id="W3g-yD-Xjk">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="paymentMethodCell" id="W3g-yD-Xjk" customClass="PaymentMethodCell" customModule="PaymentTest" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="92" width="600" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="W3g-yD-Xjk" id="rcg-Y9-HQd">
-                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Visa" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vdX-zk-Zcn">
+                                            <rect key="frame" x="559.5" y="11" width="32.5" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="u5K-vG-cdY">
+                                            <rect key="frame" x="8" y="12" width="29" height="19"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="29" id="PEJ-Nx-Ksl"/>
+                                                <constraint firstAttribute="height" constant="19" id="nfc-Vl-Xyo"/>
+                                            </constraints>
+                                        </imageView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="u5K-vG-cdY" firstAttribute="centerY" secondItem="rcg-Y9-HQd" secondAttribute="centerY" id="Vvj-fE-JOV"/>
+                                        <constraint firstItem="vdX-zk-Zcn" firstAttribute="centerY" secondItem="rcg-Y9-HQd" secondAttribute="centerY" id="iwA-p3-WFn"/>
+                                        <constraint firstItem="u5K-vG-cdY" firstAttribute="leading" secondItem="rcg-Y9-HQd" secondAttribute="leading" constant="8" id="pbD-A5-Erd"/>
+                                        <constraint firstItem="vdX-zk-Zcn" firstAttribute="trailing" secondItem="rcg-Y9-HQd" secondAttribute="trailingMargin" id="vZG-6B-7Ww"/>
+                                    </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="paymentMethodImageView" destination="u5K-vG-cdY" id="ctc-Qw-9Gc"/>
+                                    <outlet property="paymentMethodNameLabel" destination="vdX-zk-Zcn" id="eqA-ax-gGr"/>
+                                    <segue destination="9PP-yB-Vsb" kind="show" identifier="goToBankList" id="hXk-K4-cQT"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -76,9 +102,6 @@
                             <outlet property="delegate" destination="aRB-Mv-zMj" id="iuc-L1-O6f"/>
                         </connections>
                     </tableView>
-                    <connections>
-                        <segue destination="9PP-yB-Vsb" kind="custom" identifier="goToBankList" id="PM6-uT-lDE"/>
-                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dqC-jU-aJh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -93,13 +116,38 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="XTV-Ld-c4h">
-                                <rect key="frame" x="0.0" y="28" width="600" height="44"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="issuerCell" id="6db-LB-Wub" customClass="IssuersCell" customModule="PaymentTest" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="92" width="600" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="XTV-Ld-c4h" id="mPZ-fs-zLV">
-                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="6db-LB-Wub" id="gl4-Te-kKG">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Visa" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ODZ-SE-xgC">
+                                            <rect key="frame" x="559.5" y="11" width="32.5" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="WLD-vl-hN6">
+                                            <rect key="frame" x="8" y="12" width="29" height="19"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="19" id="NJZ-2K-UAv"/>
+                                                <constraint firstAttribute="width" constant="29" id="c0d-0A-jyT"/>
+                                            </constraints>
+                                        </imageView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="WLD-vl-hN6" firstAttribute="leading" secondItem="gl4-Te-kKG" secondAttribute="leading" constant="8" id="6Fd-Nu-MMH"/>
+                                        <constraint firstItem="ODZ-SE-xgC" firstAttribute="trailing" secondItem="gl4-Te-kKG" secondAttribute="trailingMargin" id="9ls-gh-ecA"/>
+                                        <constraint firstItem="WLD-vl-hN6" firstAttribute="centerY" secondItem="gl4-Te-kKG" secondAttribute="centerY" id="Q15-E6-h1N"/>
+                                        <constraint firstItem="ODZ-SE-xgC" firstAttribute="centerY" secondItem="gl4-Te-kKG" secondAttribute="centerY" id="ZUN-g1-QlO"/>
+                                    </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="issuerImageView" destination="WLD-vl-hN6" id="2v5-Wa-Hec"/>
+                                    <outlet property="issuerNameLabel" destination="ODZ-SE-xgC" id="4Ni-I6-WI1"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
