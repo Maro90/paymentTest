@@ -24,10 +24,10 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KBA-Ly-HzB">
-                                <rect key="frame" x="361" y="192" width="219" height="30"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KBA-Ly-HzB">
+                                <rect key="frame" x="159" y="192" width="421" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bC6-ac-cuf">
                                 <rect key="frame" x="373" y="267" width="207" height="30"/>
@@ -45,9 +45,13 @@
                             <constraint firstItem="0NV-Dz-7LL" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="LDy-2W-yaB"/>
                             <constraint firstItem="bC6-ac-cuf" firstAttribute="top" secondItem="KBA-Ly-HzB" secondAttribute="bottom" constant="45" id="btE-IK-09s"/>
                             <constraint firstItem="KBA-Ly-HzB" firstAttribute="trailing" secondItem="bC6-ac-cuf" secondAttribute="trailing" id="n74-ti-7xn"/>
+                            <constraint firstItem="KBA-Ly-HzB" firstAttribute="leading" secondItem="0NV-Dz-7LL" secondAttribute="trailing" constant="23" id="oZ6-Do-EA3"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Ingrese monto" id="9nt-k2-XeW"/>
+                    <connections>
+                        <outlet property="mountTextField" destination="KBA-Ly-HzB" id="Tc9-NX-NJo"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -147,6 +151,7 @@
                                 <connections>
                                     <outlet property="issuerImageView" destination="WLD-vl-hN6" id="2v5-Wa-Hec"/>
                                     <outlet property="issuerNameLabel" destination="ODZ-SE-xgC" id="4Ni-I6-WI1"/>
+                                    <segue destination="nE9-mm-Mp1" kind="show" identifier="goToInstallementList" id="zeO-X0-82L"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -159,6 +164,34 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4jJ-g5-zzf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3070" y="997"/>
+        </scene>
+        <!--Seleccion de Cuotas-->
+        <scene sceneID="c99-4e-3Bm">
+            <objects>
+                <tableViewController title="Seleccion de Cuotas" id="nE9-mm-Mp1" customClass="InstallementViewController" customModule="PaymentTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="EuE-mB-7SU">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="installementCell" id="MHh-8r-N7X">
+                                <rect key="frame" x="0.0" y="92" width="600" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="MHh-8r-N7X" id="cy5-9P-f3c">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="nE9-mm-Mp1" id="KAI-AL-wIJ"/>
+                            <outlet property="delegate" destination="nE9-mm-Mp1" id="MYd-x1-j9I"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Mlq-Bw-i1N" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3953" y="997"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="OqE-q9-GCs">

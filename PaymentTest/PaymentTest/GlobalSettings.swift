@@ -14,7 +14,6 @@ public class GlobalSttings : NSObject {
         return "https://api.mercadopago.com/v1/"
     }
     
-    
     static func getUriPaymentMethods() -> String{
         return "payment_methods"
     }

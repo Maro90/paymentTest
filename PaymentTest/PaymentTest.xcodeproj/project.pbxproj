@@ -22,6 +22,8 @@
 		75FDDA9F1CB29B5400897492 /* PaymentMethodCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FDDA9E1CB29B5400897492 /* PaymentMethodCell.swift */; };
 		75FDDAA11CB29D0700897492 /* UIImage+setFromUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FDDAA01CB29D0700897492 /* UIImage+setFromUrl.swift */; };
 		75FDDAA51CB2A85900897492 /* IssuersCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FDDAA41CB2A85900897492 /* IssuersCell.swift */; };
+		75FDDAAA1CB2BD7000897492 /* InstallementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FDDAA91CB2BD7000897492 /* InstallementViewController.swift */; };
+		75FDDAAC1CB2C03D00897492 /* PaymentProcessInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FDDAAB1CB2C03D00897492 /* PaymentProcessInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,8 @@
 		75FDDA9E1CB29B5400897492 /* PaymentMethodCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentMethodCell.swift; sourceTree = "<group>"; };
 		75FDDAA01CB29D0700897492 /* UIImage+setFromUrl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+setFromUrl.swift"; sourceTree = "<group>"; };
 		75FDDAA41CB2A85900897492 /* IssuersCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IssuersCell.swift; sourceTree = "<group>"; };
+		75FDDAA91CB2BD7000897492 /* InstallementViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstallementViewController.swift; sourceTree = "<group>"; };
+		75FDDAAB1CB2C03D00897492 /* PaymentProcessInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentProcessInfo.swift; sourceTree = "<group>"; };
 		BAFD2DD7F0ADDCEFE4D506DE /* Pods-PaymentTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaymentTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-PaymentTest/Pods-PaymentTest.release.xcconfig"; sourceTree = "<group>"; };
 		D98EE7119A37B40CF411F946 /* Pods-PaymentTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaymentTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PaymentTest/Pods-PaymentTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -128,10 +132,12 @@
 			children = (
 				758606611CAD54ED0087A33D /* AppDelegate.swift */,
 				758606631CAD54ED0087A33D /* MountViewController.swift */,
+				75FDDAA81CB2BD4900897492 /* Installements */,
 				75FDDAA31CB2A1A800897492 /* IssuersList */,
 				75FDDAA21CB2A19200897492 /* PaymentMethods */,
-				7561AB231CB1784B0079B5FF /* RepositoryManager.swift */,
+				75FDDAA61CB2B53B00897492 /* Repository */,
 				75FDDA9A1CB2987700897492 /* GlobalSettings.swift */,
+				75FDDAAB1CB2C03D00897492 /* PaymentProcessInfo.swift */,
 				75FDDAA01CB29D0700897492 /* UIImage+setFromUrl.swift */,
 				758606651CAD54ED0087A33D /* Main.storyboard */,
 				758606681CAD54ED0087A33D /* Assets.xcassets */,
@@ -175,6 +181,22 @@
 				75FDDAA41CB2A85900897492 /* IssuersCell.swift */,
 			);
 			name = IssuersList;
+			sourceTree = "<group>";
+		};
+		75FDDAA61CB2B53B00897492 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				7561AB231CB1784B0079B5FF /* RepositoryManager.swift */,
+			);
+			name = Repository;
+			sourceTree = "<group>";
+		};
+		75FDDAA81CB2BD4900897492 /* Installements */ = {
+			isa = PBXGroup;
+			children = (
+				75FDDAA91CB2BD7000897492 /* InstallementViewController.swift */,
+			);
+			name = Installements;
 			sourceTree = "<group>";
 		};
 		8D47FD7A926044668AA688F7 /* Pods */ = {
@@ -370,12 +392,14 @@
 			files = (
 				758606641CAD54ED0087A33D /* MountViewController.swift in Sources */,
 				758606621CAD54ED0087A33D /* AppDelegate.swift in Sources */,
+				75FDDAAA1CB2BD7000897492 /* InstallementViewController.swift in Sources */,
 				75FDDAA51CB2A85900897492 /* IssuersCell.swift in Sources */,
 				75FDDAA11CB29D0700897492 /* UIImage+setFromUrl.swift in Sources */,
 				7561AB261CB178950079B5FF /* PaymentMethodsViewController.swift in Sources */,
 				75FDDA9F1CB29B5400897492 /* PaymentMethodCell.swift in Sources */,
 				7561AB221CB1782E0079B5FF /* IssuersListViewController.swift in Sources */,
 				7561AB241CB1784B0079B5FF /* RepositoryManager.swift in Sources */,
+				75FDDAAC1CB2C03D00897492 /* PaymentProcessInfo.swift in Sources */,
 				75FDDA9B1CB2987700897492 /* GlobalSettings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

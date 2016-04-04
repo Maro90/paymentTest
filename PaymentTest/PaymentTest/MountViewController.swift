@@ -10,6 +10,8 @@ import UIKit
 
 class MountViewController: UIViewController {
 
+    @IBOutlet weak var mountTextField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -24,9 +26,9 @@ class MountViewController: UIViewController {
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if segue.identifier == "goToPaymentList" {
             //I should pass mount
+            PaymentProcessInfo.sharedInstance.paymentMount = self.mountTextField.text
+            
         }
-        
-        
         
     }
 

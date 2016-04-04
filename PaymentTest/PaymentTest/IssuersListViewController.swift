@@ -12,7 +12,6 @@ class IssuersListViewController: UITableViewController {
 
     
     var issuersList = NSArray()
-    var paymentMethodId = ""
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,7 +25,7 @@ class IssuersListViewController: UITableViewController {
         RepositoryManager.connectToURL(GlobalSttings.getBaseURL(),
                                        uri: GlobalSttings.getUriCardIssuers(),
                                        connectionMethod: .GET,
-                                       parameters: ["public_key":GlobalSttings.getPublicKey(),"payment_method_id":self.paymentMethodId]){ (responseList, error) in
+                                       parameters: ["public_key":GlobalSttings.getPublicKey(),"payment_method_id":PaymentProcessInfo.sharedInstance.paymentMethodId]){ (responseList, error) in
                                         
             if error == nil{
                 self.issuersList = responseList
@@ -74,21 +73,21 @@ class IssuersListViewController: UITableViewController {
         
         return cell
     }
+
     
-    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-//        self.performSegueWithIdentifier("goToBanks", sender: (self.issuersList.objectAtIndex(indexPath.row) as! NSDictionary).objectForKey("id") as? String)
-        
-    }
-
-
-    /*
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        
+        if segue.identifier == "goToInstallementList" {
+            PaymentProcessInfo.sharedInstance.paymentIssuerId = ((self.issuersList.objectAtIndex((self.tableView.indexPathForSelectedRow?.row)!) as! NSDictionary).objectForKey("id") as! String)
+            //self.paymentIdSelected
+        }
+        
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
     }
-    */
+    
 
 }

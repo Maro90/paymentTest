@@ -11,7 +11,6 @@ import UIKit
 class PaymentMethodsViewController: UITableViewController {
 
     var paymentList = NSArray()
-    var paymentIdSelected : String!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -76,7 +75,7 @@ class PaymentMethodsViewController: UITableViewController {
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         
         if segue.identifier == "goToBankList" {
-            (segue.destinationViewController as! IssuersListViewController).paymentMethodId = ((self.paymentList.objectAtIndex((self.tableView.indexPathForSelectedRow?.row)!) as! NSDictionary).objectForKey("id") as! String)
+            PaymentProcessInfo.sharedInstance.paymentMethodId = ((self.paymentList.objectAtIndex((self.tableView.indexPathForSelectedRow?.row)!) as! NSDictionary).objectForKey("id") as! String)
             //self.paymentIdSelected
         }
         
