@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  MountViewController.swift
 //  PaymentTest
 //
 //  Created by Mauro Gonzalez on 3/31/16.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class MountViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,6 +20,15 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if segue.identifier == "goToPaymentList" {
+            //I should pass mount
+        }
+        
+        
+        
+    }
 
 }
 

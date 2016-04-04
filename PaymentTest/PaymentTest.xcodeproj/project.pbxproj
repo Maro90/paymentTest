@@ -1,1121 +1,601 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>0A63CD33D5E1555DAB1FE9EB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>2F7BF978F1263CAE8DE51B67</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>12A6EA28C2C62191A6279FD1</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2F7BF978F1263CAE8DE51B67</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2F7BF978F1263CAE8DE51B67</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods_PaymentTest.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>37AA2D4694F3EE50BDCACFDF</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-PaymentTest/Pods-PaymentTest-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>758606551CAD54EC0087A33D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>758606601CAD54ED0087A33D</string>
-				<string>758606751CAD54ED0087A33D</string>
-				<string>758606801CAD54ED0087A33D</string>
-				<string>7586065F1CAD54EC0087A33D</string>
-				<string>8D47FD7A926044668AA688F7</string>
-				<string>0A63CD33D5E1555DAB1FE9EB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>758606561CAD54EC0087A33D</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastSwiftUpdateCheck</key>
-				<string>0730</string>
-				<key>LastUpgradeCheck</key>
-				<string>0730</string>
-				<key>ORGANIZATIONNAME</key>
-				<string>Mauro Gonzalez</string>
-				<key>TargetAttributes</key>
-				<dict>
-					<key>7586065D1CAD54EC0087A33D</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>7.3</string>
-					</dict>
-					<key>758606711CAD54ED0087A33D</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>7.3</string>
-						<key>TestTargetID</key>
-						<string>7586065D1CAD54EC0087A33D</string>
-					</dict>
-					<key>7586067C1CAD54ED0087A33D</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>7.3</string>
-						<key>TestTargetID</key>
-						<string>7586065D1CAD54EC0087A33D</string>
-					</dict>
-				</dict>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>758606591CAD54EC0087A33D</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-				<string>Base</string>
-			</array>
-			<key>mainGroup</key>
-			<string>758606551CAD54EC0087A33D</string>
-			<key>productRefGroup</key>
-			<string>7586065F1CAD54EC0087A33D</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>7586065D1CAD54EC0087A33D</string>
-				<string>758606711CAD54ED0087A33D</string>
-				<string>7586067C1CAD54ED0087A33D</string>
-			</array>
-		</dict>
-		<key>758606591CAD54EC0087A33D</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>758606841CAD54ED0087A33D</string>
-				<string>758606851CAD54ED0087A33D</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>7586065A1CAD54EC0087A33D</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>758606641CAD54ED0087A33D</string>
-				<string>758606621CAD54ED0087A33D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>7586065B1CAD54EC0087A33D</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>12A6EA28C2C62191A6279FD1</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>7586065C1CAD54EC0087A33D</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>7586066C1CAD54ED0087A33D</string>
-				<string>758606691CAD54ED0087A33D</string>
-				<string>758606671CAD54ED0087A33D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>7586065D1CAD54EC0087A33D</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>758606861CAD54ED0087A33D</string>
-			<key>buildPhases</key>
-			<array>
-				<string>D3EA0BA3EF321B643F1DE71F</string>
-				<string>7586065A1CAD54EC0087A33D</string>
-				<string>7586065B1CAD54EC0087A33D</string>
-				<string>7586065C1CAD54EC0087A33D</string>
-				<string>F6DBEC2B6739C1BE8D805C7E</string>
-				<string>37AA2D4694F3EE50BDCACFDF</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>PaymentTest</string>
-			<key>productName</key>
-			<string>PaymentTest</string>
-			<key>productReference</key>
-			<string>7586065E1CAD54EC0087A33D</string>
-			<key>productType</key>
-			<string>com.apple.product-type.application</string>
-		</dict>
-		<key>7586065E1CAD54EC0087A33D</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.application</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>PaymentTest.app</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>7586065F1CAD54EC0087A33D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>7586065E1CAD54EC0087A33D</string>
-				<string>758606721CAD54ED0087A33D</string>
-				<string>7586067D1CAD54ED0087A33D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>758606601CAD54ED0087A33D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>758606611CAD54ED0087A33D</string>
-				<string>758606631CAD54ED0087A33D</string>
-				<string>758606651CAD54ED0087A33D</string>
-				<string>758606681CAD54ED0087A33D</string>
-				<string>7586066A1CAD54ED0087A33D</string>
-				<string>7586066D1CAD54ED0087A33D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>PaymentTest</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>758606611CAD54ED0087A33D</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>AppDelegate.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>758606621CAD54ED0087A33D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>758606611CAD54ED0087A33D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>758606631CAD54ED0087A33D</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>ViewController.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>758606641CAD54ED0087A33D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>758606631CAD54ED0087A33D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>758606651CAD54ED0087A33D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>758606661CAD54ED0087A33D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>758606661CAD54ED0087A33D</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>758606671CAD54ED0087A33D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>758606651CAD54ED0087A33D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>758606681CAD54ED0087A33D</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>folder.assetcatalog</string>
-			<key>path</key>
-			<string>Assets.xcassets</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>758606691CAD54ED0087A33D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>758606681CAD54ED0087A33D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7586066A1CAD54ED0087A33D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>7586066B1CAD54ED0087A33D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>LaunchScreen.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7586066B1CAD54ED0087A33D</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/LaunchScreen.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7586066C1CAD54ED0087A33D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7586066A1CAD54ED0087A33D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7586066D1CAD54ED0087A33D</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7586066E1CAD54ED0087A33D</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>758606771CAD54ED0087A33D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>7586066F1CAD54ED0087A33D</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>758606701CAD54ED0087A33D</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>758606711CAD54ED0087A33D</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>758606891CAD54ED0087A33D</string>
-			<key>buildPhases</key>
-			<array>
-				<string>7586066E1CAD54ED0087A33D</string>
-				<string>7586066F1CAD54ED0087A33D</string>
-				<string>758606701CAD54ED0087A33D</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>758606741CAD54ED0087A33D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>PaymentTestTests</string>
-			<key>productName</key>
-			<string>PaymentTestTests</string>
-			<key>productReference</key>
-			<string>758606721CAD54ED0087A33D</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle.unit-test</string>
-		</dict>
-		<key>758606721CAD54ED0087A33D</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>PaymentTestTests.xctest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>758606731CAD54ED0087A33D</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>758606561CAD54EC0087A33D</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>7586065D1CAD54EC0087A33D</string>
-			<key>remoteInfo</key>
-			<string>PaymentTest</string>
-		</dict>
-		<key>758606741CAD54ED0087A33D</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>7586065D1CAD54EC0087A33D</string>
-			<key>targetProxy</key>
-			<string>758606731CAD54ED0087A33D</string>
-		</dict>
-		<key>758606751CAD54ED0087A33D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>758606761CAD54ED0087A33D</string>
-				<string>758606781CAD54ED0087A33D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>PaymentTestTests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>758606761CAD54ED0087A33D</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>PaymentTestTests.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>758606771CAD54ED0087A33D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>758606761CAD54ED0087A33D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>758606781CAD54ED0087A33D</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>758606791CAD54ED0087A33D</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>758606821CAD54ED0087A33D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>7586067A1CAD54ED0087A33D</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>7586067B1CAD54ED0087A33D</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>7586067C1CAD54ED0087A33D</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>7586068C1CAD54ED0087A33D</string>
-			<key>buildPhases</key>
-			<array>
-				<string>758606791CAD54ED0087A33D</string>
-				<string>7586067A1CAD54ED0087A33D</string>
-				<string>7586067B1CAD54ED0087A33D</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>7586067F1CAD54ED0087A33D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>PaymentTestUITests</string>
-			<key>productName</key>
-			<string>PaymentTestUITests</string>
-			<key>productReference</key>
-			<string>7586067D1CAD54ED0087A33D</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle.ui-testing</string>
-		</dict>
-		<key>7586067D1CAD54ED0087A33D</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>PaymentTestUITests.xctest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>7586067E1CAD54ED0087A33D</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>758606561CAD54EC0087A33D</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>7586065D1CAD54EC0087A33D</string>
-			<key>remoteInfo</key>
-			<string>PaymentTest</string>
-		</dict>
-		<key>7586067F1CAD54ED0087A33D</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>7586065D1CAD54EC0087A33D</string>
-			<key>targetProxy</key>
-			<string>7586067E1CAD54ED0087A33D</string>
-		</dict>
-		<key>758606801CAD54ED0087A33D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>758606811CAD54ED0087A33D</string>
-				<string>758606831CAD54ED0087A33D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>PaymentTestUITests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>758606811CAD54ED0087A33D</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>PaymentTestUITests.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>758606821CAD54ED0087A33D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>758606811CAD54ED0087A33D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>758606831CAD54ED0087A33D</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>758606841CAD54ED0087A33D</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_ANALYZER_NONNULL</key>
-				<string>YES</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>ENABLE_TESTABILITY</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>9.3</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SWIFT_OPTIMIZATION_LEVEL</key>
-				<string>-Onone</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>758606851CAD54ED0087A33D</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_ANALYZER_NONNULL</key>
-				<string>YES</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf-with-dsym</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>9.3</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>758606861CAD54ED0087A33D</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>758606871CAD54ED0087A33D</string>
-				<string>758606881CAD54ED0087A33D</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>758606871CAD54ED0087A33D</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>D98EE7119A37B40CF411F946</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>INFOPLIST_FILE</key>
-				<string>PaymentTest/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.maurogonzalez.PaymentTest</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>758606881CAD54ED0087A33D</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>BAFD2DD7F0ADDCEFE4D506DE</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>INFOPLIST_FILE</key>
-				<string>PaymentTest/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.maurogonzalez.PaymentTest</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>758606891CAD54ED0087A33D</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>7586068A1CAD54ED0087A33D</string>
-				<string>7586068B1CAD54ED0087A33D</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>7586068A1CAD54ED0087A33D</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(TEST_HOST)</string>
-				<key>INFOPLIST_FILE</key>
-				<string>PaymentTestTests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.maurogonzalez.PaymentTestTests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUILT_PRODUCTS_DIR)/PaymentTest.app/PaymentTest</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>7586068B1CAD54ED0087A33D</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(TEST_HOST)</string>
-				<key>INFOPLIST_FILE</key>
-				<string>PaymentTestTests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.maurogonzalez.PaymentTestTests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUILT_PRODUCTS_DIR)/PaymentTest.app/PaymentTest</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>7586068C1CAD54ED0087A33D</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>7586068D1CAD54ED0087A33D</string>
-				<string>7586068E1CAD54ED0087A33D</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>7586068D1CAD54ED0087A33D</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>INFOPLIST_FILE</key>
-				<string>PaymentTestUITests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.maurogonzalez.PaymentTestUITests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_TARGET_NAME</key>
-				<string>PaymentTest</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>7586068E1CAD54ED0087A33D</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>INFOPLIST_FILE</key>
-				<string>PaymentTestUITests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.maurogonzalez.PaymentTestUITests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_TARGET_NAME</key>
-				<string>PaymentTest</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>8D47FD7A926044668AA688F7</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D98EE7119A37B40CF411F946</string>
-				<string>BAFD2DD7F0ADDCEFE4D506DE</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BAFD2DD7F0ADDCEFE4D506DE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-PaymentTest.release.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-PaymentTest/Pods-PaymentTest.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D3EA0BA3EF321B643F1DE71F</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>D98EE7119A37B40CF411F946</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-PaymentTest.debug.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-PaymentTest/Pods-PaymentTest.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F6DBEC2B6739C1BE8D805C7E</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Embed Pods Frameworks</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-PaymentTest/Pods-PaymentTest-frameworks.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>758606561CAD54EC0087A33D</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12A6EA28C2C62191A6279FD1 /* Pods_PaymentTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F7BF978F1263CAE8DE51B67 /* Pods_PaymentTest.framework */; };
+		7561AB221CB1782E0079B5FF /* IssuersListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7561AB211CB1782E0079B5FF /* IssuersListViewController.swift */; };
+		7561AB241CB1784B0079B5FF /* RepositoryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7561AB231CB1784B0079B5FF /* RepositoryManager.swift */; };
+		7561AB261CB178950079B5FF /* PaymentMethodsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7561AB251CB178950079B5FF /* PaymentMethodsViewController.swift */; };
+		758606621CAD54ED0087A33D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758606611CAD54ED0087A33D /* AppDelegate.swift */; };
+		758606641CAD54ED0087A33D /* MountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758606631CAD54ED0087A33D /* MountViewController.swift */; };
+		758606671CAD54ED0087A33D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 758606651CAD54ED0087A33D /* Main.storyboard */; };
+		758606691CAD54ED0087A33D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 758606681CAD54ED0087A33D /* Assets.xcassets */; };
+		7586066C1CAD54ED0087A33D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7586066A1CAD54ED0087A33D /* LaunchScreen.storyboard */; };
+		758606771CAD54ED0087A33D /* PaymentTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758606761CAD54ED0087A33D /* PaymentTestTests.swift */; };
+		758606821CAD54ED0087A33D /* PaymentTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758606811CAD54ED0087A33D /* PaymentTestUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		758606731CAD54ED0087A33D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 758606561CAD54EC0087A33D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7586065D1CAD54EC0087A33D;
+			remoteInfo = PaymentTest;
+		};
+		7586067E1CAD54ED0087A33D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 758606561CAD54EC0087A33D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7586065D1CAD54EC0087A33D;
+			remoteInfo = PaymentTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F7BF978F1263CAE8DE51B67 /* Pods_PaymentTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PaymentTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7561AB211CB1782E0079B5FF /* IssuersListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IssuersListViewController.swift; sourceTree = "<group>"; };
+		7561AB231CB1784B0079B5FF /* RepositoryManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepositoryManager.swift; sourceTree = "<group>"; };
+		7561AB251CB178950079B5FF /* PaymentMethodsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentMethodsViewController.swift; sourceTree = "<group>"; };
+		7586065E1CAD54EC0087A33D /* PaymentTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaymentTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		758606611CAD54ED0087A33D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		758606631CAD54ED0087A33D /* MountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MountViewController.swift; sourceTree = "<group>"; };
+		758606661CAD54ED0087A33D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		758606681CAD54ED0087A33D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7586066B1CAD54ED0087A33D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7586066D1CAD54ED0087A33D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		758606721CAD54ED0087A33D /* PaymentTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaymentTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		758606761CAD54ED0087A33D /* PaymentTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentTestTests.swift; sourceTree = "<group>"; };
+		758606781CAD54ED0087A33D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7586067D1CAD54ED0087A33D /* PaymentTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaymentTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		758606811CAD54ED0087A33D /* PaymentTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentTestUITests.swift; sourceTree = "<group>"; };
+		758606831CAD54ED0087A33D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAFD2DD7F0ADDCEFE4D506DE /* Pods-PaymentTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaymentTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-PaymentTest/Pods-PaymentTest.release.xcconfig"; sourceTree = "<group>"; };
+		D98EE7119A37B40CF411F946 /* Pods-PaymentTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaymentTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PaymentTest/Pods-PaymentTest.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7586065B1CAD54EC0087A33D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12A6EA28C2C62191A6279FD1 /* Pods_PaymentTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7586066F1CAD54ED0087A33D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7586067A1CAD54ED0087A33D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A63CD33D5E1555DAB1FE9EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F7BF978F1263CAE8DE51B67 /* Pods_PaymentTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		758606551CAD54EC0087A33D = {
+			isa = PBXGroup;
+			children = (
+				758606601CAD54ED0087A33D /* PaymentTest */,
+				758606751CAD54ED0087A33D /* PaymentTestTests */,
+				758606801CAD54ED0087A33D /* PaymentTestUITests */,
+				7586065F1CAD54EC0087A33D /* Products */,
+				8D47FD7A926044668AA688F7 /* Pods */,
+				0A63CD33D5E1555DAB1FE9EB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7586065F1CAD54EC0087A33D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7586065E1CAD54EC0087A33D /* PaymentTest.app */,
+				758606721CAD54ED0087A33D /* PaymentTestTests.xctest */,
+				7586067D1CAD54ED0087A33D /* PaymentTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		758606601CAD54ED0087A33D /* PaymentTest */ = {
+			isa = PBXGroup;
+			children = (
+				758606611CAD54ED0087A33D /* AppDelegate.swift */,
+				758606631CAD54ED0087A33D /* MountViewController.swift */,
+				7561AB211CB1782E0079B5FF /* IssuersListViewController.swift */,
+				7561AB251CB178950079B5FF /* PaymentMethodsViewController.swift */,
+				7561AB231CB1784B0079B5FF /* RepositoryManager.swift */,
+				758606651CAD54ED0087A33D /* Main.storyboard */,
+				758606681CAD54ED0087A33D /* Assets.xcassets */,
+				7586066A1CAD54ED0087A33D /* LaunchScreen.storyboard */,
+				7586066D1CAD54ED0087A33D /* Info.plist */,
+			);
+			path = PaymentTest;
+			sourceTree = "<group>";
+		};
+		758606751CAD54ED0087A33D /* PaymentTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				758606761CAD54ED0087A33D /* PaymentTestTests.swift */,
+				758606781CAD54ED0087A33D /* Info.plist */,
+			);
+			path = PaymentTestTests;
+			sourceTree = "<group>";
+		};
+		758606801CAD54ED0087A33D /* PaymentTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				758606811CAD54ED0087A33D /* PaymentTestUITests.swift */,
+				758606831CAD54ED0087A33D /* Info.plist */,
+			);
+			path = PaymentTestUITests;
+			sourceTree = "<group>";
+		};
+		8D47FD7A926044668AA688F7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D98EE7119A37B40CF411F946 /* Pods-PaymentTest.debug.xcconfig */,
+				BAFD2DD7F0ADDCEFE4D506DE /* Pods-PaymentTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7586065D1CAD54EC0087A33D /* PaymentTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 758606861CAD54ED0087A33D /* Build configuration list for PBXNativeTarget "PaymentTest" */;
+			buildPhases = (
+				D3EA0BA3EF321B643F1DE71F /* Check Pods Manifest.lock */,
+				7586065A1CAD54EC0087A33D /* Sources */,
+				7586065B1CAD54EC0087A33D /* Frameworks */,
+				7586065C1CAD54EC0087A33D /* Resources */,
+				F6DBEC2B6739C1BE8D805C7E /* Embed Pods Frameworks */,
+				37AA2D4694F3EE50BDCACFDF /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PaymentTest;
+			productName = PaymentTest;
+			productReference = 7586065E1CAD54EC0087A33D /* PaymentTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		758606711CAD54ED0087A33D /* PaymentTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 758606891CAD54ED0087A33D /* Build configuration list for PBXNativeTarget "PaymentTestTests" */;
+			buildPhases = (
+				7586066E1CAD54ED0087A33D /* Sources */,
+				7586066F1CAD54ED0087A33D /* Frameworks */,
+				758606701CAD54ED0087A33D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				758606741CAD54ED0087A33D /* PBXTargetDependency */,
+			);
+			name = PaymentTestTests;
+			productName = PaymentTestTests;
+			productReference = 758606721CAD54ED0087A33D /* PaymentTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7586067C1CAD54ED0087A33D /* PaymentTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7586068C1CAD54ED0087A33D /* Build configuration list for PBXNativeTarget "PaymentTestUITests" */;
+			buildPhases = (
+				758606791CAD54ED0087A33D /* Sources */,
+				7586067A1CAD54ED0087A33D /* Frameworks */,
+				7586067B1CAD54ED0087A33D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7586067F1CAD54ED0087A33D /* PBXTargetDependency */,
+			);
+			name = PaymentTestUITests;
+			productName = PaymentTestUITests;
+			productReference = 7586067D1CAD54ED0087A33D /* PaymentTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		758606561CAD54EC0087A33D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Mauro Gonzalez";
+				TargetAttributes = {
+					7586065D1CAD54EC0087A33D = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					758606711CAD54ED0087A33D = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 7586065D1CAD54EC0087A33D;
+					};
+					7586067C1CAD54ED0087A33D = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 7586065D1CAD54EC0087A33D;
+					};
+				};
+			};
+			buildConfigurationList = 758606591CAD54EC0087A33D /* Build configuration list for PBXProject "PaymentTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 758606551CAD54EC0087A33D;
+			productRefGroup = 7586065F1CAD54EC0087A33D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7586065D1CAD54EC0087A33D /* PaymentTest */,
+				758606711CAD54ED0087A33D /* PaymentTestTests */,
+				7586067C1CAD54ED0087A33D /* PaymentTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7586065C1CAD54EC0087A33D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7586066C1CAD54ED0087A33D /* LaunchScreen.storyboard in Resources */,
+				758606691CAD54ED0087A33D /* Assets.xcassets in Resources */,
+				758606671CAD54ED0087A33D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		758606701CAD54ED0087A33D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7586067B1CAD54ED0087A33D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		37AA2D4694F3EE50BDCACFDF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PaymentTest/Pods-PaymentTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3EA0BA3EF321B643F1DE71F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F6DBEC2B6739C1BE8D805C7E /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PaymentTest/Pods-PaymentTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7586065A1CAD54EC0087A33D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				758606641CAD54ED0087A33D /* MountViewController.swift in Sources */,
+				758606621CAD54ED0087A33D /* AppDelegate.swift in Sources */,
+				7561AB261CB178950079B5FF /* PaymentMethodsViewController.swift in Sources */,
+				7561AB221CB1782E0079B5FF /* IssuersListViewController.swift in Sources */,
+				7561AB241CB1784B0079B5FF /* RepositoryManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7586066E1CAD54ED0087A33D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				758606771CAD54ED0087A33D /* PaymentTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		758606791CAD54ED0087A33D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				758606821CAD54ED0087A33D /* PaymentTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		758606741CAD54ED0087A33D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7586065D1CAD54EC0087A33D /* PaymentTest */;
+			targetProxy = 758606731CAD54ED0087A33D /* PBXContainerItemProxy */;
+		};
+		7586067F1CAD54ED0087A33D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7586065D1CAD54EC0087A33D /* PaymentTest */;
+			targetProxy = 7586067E1CAD54ED0087A33D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		758606651CAD54ED0087A33D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				758606661CAD54ED0087A33D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7586066A1CAD54ED0087A33D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7586066B1CAD54ED0087A33D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		758606841CAD54ED0087A33D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		758606851CAD54ED0087A33D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		758606871CAD54ED0087A33D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D98EE7119A37B40CF411F946 /* Pods-PaymentTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = PaymentTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maurogonzalez.PaymentTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		758606881CAD54ED0087A33D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAFD2DD7F0ADDCEFE4D506DE /* Pods-PaymentTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = PaymentTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maurogonzalez.PaymentTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7586068A1CAD54ED0087A33D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PaymentTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maurogonzalez.PaymentTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PaymentTest.app/PaymentTest";
+			};
+			name = Debug;
+		};
+		7586068B1CAD54ED0087A33D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PaymentTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maurogonzalez.PaymentTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PaymentTest.app/PaymentTest";
+			};
+			name = Release;
+		};
+		7586068D1CAD54ED0087A33D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PaymentTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maurogonzalez.PaymentTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PaymentTest;
+			};
+			name = Debug;
+		};
+		7586068E1CAD54ED0087A33D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PaymentTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maurogonzalez.PaymentTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PaymentTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		758606591CAD54EC0087A33D /* Build configuration list for PBXProject "PaymentTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				758606841CAD54ED0087A33D /* Debug */,
+				758606851CAD54ED0087A33D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		758606861CAD54ED0087A33D /* Build configuration list for PBXNativeTarget "PaymentTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				758606871CAD54ED0087A33D /* Debug */,
+				758606881CAD54ED0087A33D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		758606891CAD54ED0087A33D /* Build configuration list for PBXNativeTarget "PaymentTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7586068A1CAD54ED0087A33D /* Debug */,
+				7586068B1CAD54ED0087A33D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7586068C1CAD54ED0087A33D /* Build configuration list for PBXNativeTarget "PaymentTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7586068D1CAD54ED0087A33D /* Debug */,
+				7586068E1CAD54ED0087A33D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 758606561CAD54EC0087A33D /* Project object */;
+}
