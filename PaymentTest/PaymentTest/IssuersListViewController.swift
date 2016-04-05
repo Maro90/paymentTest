@@ -22,11 +22,7 @@ class IssuersListViewController: UITableViewController {
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
        
-        RepositoryManager.connectToURL(GlobalSttings.getBaseURL(),
-                                       uri: GlobalSttings.getUriCardIssuers(),
-                                       connectionMethod: .GET,
-                                       parameters: ["public_key":GlobalSttings.getPublicKey(),"payment_method_id":PaymentProcessInfo.sharedInstance.paymentMethodId]){ (responseList, error) in
-                                        
+        RepositoryManager.getCardIssuersWithParameters(["payment_method_id":PaymentProcessInfo.sharedInstance.paymentMethodId]) { (responseList, error) in
             if error == nil{
                 self.issuersList = responseList
                 self.tableView.reloadData()
@@ -82,6 +78,7 @@ class IssuersListViewController: UITableViewController {
         
         if segue.identifier == "goToInstallementList" {
             PaymentProcessInfo.sharedInstance.paymentIssuerId = ((self.issuersList.objectAtIndex((self.tableView.indexPathForSelectedRow?.row)!) as! NSDictionary).objectForKey("id") as! String)
+            PaymentProcessInfo.sharedInstance.paymentIssuerName = ((self.issuersList.objectAtIndex((self.tableView.indexPathForSelectedRow?.row)!) as! NSDictionary).objectForKey("name") as! String)
             //self.paymentIdSelected
         }
         

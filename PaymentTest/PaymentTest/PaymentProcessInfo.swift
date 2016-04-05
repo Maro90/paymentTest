@@ -11,8 +11,13 @@ import Foundation
 class PaymentProcessInfo: NSObject {
     
     var paymentMount    : String!
+    
     var paymentMethodId : String!
+    var paymentMethodName : String!
+    
     var paymentIssuerId : String!
+    var paymentIssuerName : String!
+    
     var paymentInstallement : String!
     
     class var sharedInstance: PaymentProcessInfo {

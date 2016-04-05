@@ -10,7 +10,8 @@ import UIKit
 
 class InstallementViewController: UITableViewController {
     
-    var issuersList = NSArray()
+    var installmentInfo = NSDictionary()
+    var installmentList = NSArray()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,19 +21,17 @@ class InstallementViewController: UITableViewController {
         
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
-        
-        RepositoryManager.connectToURL(GlobalSttings.getBaseURL(),
-                                       uri: GlobalSttings.getUriInstallments(),
-                                       connectionMethod: .GET,
-                                       parameters: ["public_key":GlobalSttings.getPublicKey(),
-                                        "payment_method_id":PaymentProcessInfo.sharedInstance.paymentMethodId,
-                                        "amount":PaymentProcessInfo.sharedInstance.paymentMount,
-                                        "issuer.id":PaymentProcessInfo.sharedInstance.paymentIssuerId]){ (responseList, error) in
-                                        
-                                        if error == nil{
-                                            self.issuersList = responseList
-                                            self.tableView.reloadData()
-                                        }
+        RepositoryManager.getInstallmentsWithParameters(["amount":PaymentProcessInfo.sharedInstance.paymentMount,
+            "payment_method_id":PaymentProcessInfo.sharedInstance.paymentMethodId,
+            "issuer.id":PaymentProcessInfo.sharedInstance.paymentIssuerId]) { (responseList, error) in
+                
+                if error == nil{
+                    self.installmentInfo = responseList[0] as! NSDictionary
+                    self.installmentList = (self.installmentInfo.objectForKey("payer_costs") as? [[String : AnyObject]])!
+                    self.tableView.reloadData()
+                }
+
+                
         }
     }
     
@@ -50,7 +49,7 @@ class InstallementViewController: UITableViewController {
     
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return self.issuersList.count
+        return self.installmentList.count
     }
     
     
@@ -59,16 +58,30 @@ class InstallementViewController: UITableViewController {
         
         // Configure the cell...
         
-        cell.textLabel!.text = (self.issuersList.objectAtIndex(indexPath.row) as! NSDictionary).objectForKey("name") as? String
+        cell.textLabel!.text = (self.installmentList.objectAtIndex(indexPath.row) as! NSDictionary).objectForKey("recommended_message") as? String
         
         return cell
     }
     
     override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        //        self.performSegueWithIdentifier("goToBanks", sender: (self.issuersList.objectAtIndex(indexPath.row) as! NSDictionary).objectForKey("id") as? String)
+
+        PaymentProcessInfo.sharedInstance.paymentInstallement = ((self.installmentList.objectAtIndex((self.tableView.indexPathForSelectedRow?.row)!) as! NSDictionary).objectForKey("recommended_message") as! String)
+
+        
+        let message = "Monto de pago: \(PaymentProcessInfo.sharedInstance.paymentMount) \nMedio de pago: \(PaymentProcessInfo.sharedInstance.paymentMethodName) \nBanco: \(PaymentProcessInfo.sharedInstance.paymentIssuerName) \nCuotas: \(PaymentProcessInfo.sharedInstance.paymentInstallement) \n"
+        
+        let alertController = UIAlertController(title: "Datos de tu pago", message: message, preferredStyle: .Alert)
+        
+        let defaultAction = UIAlertAction(title: "OK", style: .Default) { (alert) in
+            self.navigationController?.popToRootViewControllerAnimated(true)
+        }
+        
+        alertController.addAction(defaultAction)
+        
+        presentViewController(alertController, animated: true, completion: nil)
+
         
     }
-    
     
     /*
      // MARK: - Navigation

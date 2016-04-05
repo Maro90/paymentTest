@@ -16,11 +16,7 @@ class PaymentMethodsViewController: UITableViewController {
         super.viewDidLoad()
 
         
-        RepositoryManager.connectToURL(GlobalSttings.getBaseURL(),
-                                       uri: GlobalSttings.getUriPaymentMethods(),
-                                       connectionMethod: .GET,
-                                       parameters: ["public_key":GlobalSttings.getPublicKey()]){ (responseList, error) in
-        
+        RepositoryManager.getPaymentMethodsWithParameters() { (responseList, error) in
             if error == nil{
                 self.paymentList = responseList
                 self.tableView.reloadData()
@@ -76,6 +72,7 @@ class PaymentMethodsViewController: UITableViewController {
         
         if segue.identifier == "goToBankList" {
             PaymentProcessInfo.sharedInstance.paymentMethodId = ((self.paymentList.objectAtIndex((self.tableView.indexPathForSelectedRow?.row)!) as! NSDictionary).objectForKey("id") as! String)
+            PaymentProcessInfo.sharedInstance.paymentMethodName = ((self.paymentList.objectAtIndex((self.tableView.indexPathForSelectedRow?.row)!) as! NSDictionary).objectForKey("name") as! String)
             //self.paymentIdSelected
         }
         
