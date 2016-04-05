@@ -16,7 +16,7 @@ class PaymentMethodsViewController: UITableViewController {
         super.viewDidLoad()
 
         
-        RepositoryManager.getPaymentMethodsWithParameters() { (responseList, error) in
+        RepositoryManager.getPaymentMethods() { (responseList, error) in
             if error == nil{
                 self.paymentList = responseList
                 self.tableView.reloadData()

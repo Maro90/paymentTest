@@ -32,7 +32,7 @@ class RepositoryManager: NSObject {
         
     }
     
-    static func getPaymentMethodsWithParameters(completionResponse: (responseList: NSArray, error: NSError?)->Void){
+    static func getPaymentMethods(completionResponse: (responseList: NSArray, error: NSError?)->Void){
     
         let paramet = NSMutableDictionary()
         
